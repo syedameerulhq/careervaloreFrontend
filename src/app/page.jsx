@@ -38,6 +38,8 @@ function Temp() {
   <div className="px-2 md:px-10">
   {/* <JobSearch/> */}
     <JobGrid/>
+      <p> testing</p>
+
     {/* <ArticleCard/> */} 
      <div>
       {loading && <p>Loading jobs...</p>}
