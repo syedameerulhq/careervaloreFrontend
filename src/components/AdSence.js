@@ -6,7 +6,7 @@ function Adsence() {
     <Script async 
      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2710760479966091"
      strategy="beforeInteractive"
-     crossorigin="anonymous"
+     crossOrigin="anonymous"
      />
 
   )
