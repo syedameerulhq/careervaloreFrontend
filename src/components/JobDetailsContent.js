@@ -155,7 +155,7 @@ function JobDetailsContent({ job }) {
             textAlign: "left",
             fontSize: "1.5rem",
             fontWeight: "bold",
-            color: "#d32f2f",
+            color: "black",
             paddingBottom: "6px",
             wordBreak: "break-word",
           }}
