@@ -35,6 +35,8 @@ export default function JobPosting({ job }) {
   const [countdown, setCountdown] = useState(0);
   const [isButtonActive, setIsButtonActive] = useState(false);
   const [jobs, setJobs] = useState([]);
+  const [loading, setLoading] = useState(true);
+
   // Fetch all jobs (optional, if needed elsewhere)
   const fetchJobs = async () => {
     try {
@@ -140,14 +142,16 @@ export default function JobPosting({ job }) {
             </div>
             <div className="w-full   h-64 bg-gray-200 rounded-lg overflow-hidden">
               {job ? (
-                <Image
-                  src={job.image || "https://via.placeholder.com/800x300"}
+                // <Image
+                //   src={job.image || "https://via.placeholder.com/800x300"}
                   
-                  alt="Job Image"
-                  width={800}
-                  height={300}
-                  className="w-full h-full object-fill"
-                />
+                //   alt="Job Image"
+                //   width={800}
+                //   height={300}
+                //   className="w-full h-full object-fill"
+                // />
+                <>
+                </>
               ) : (
                 <CustomSkeleton width="100%" height="100%" variant="rectangular" />
            )}  
