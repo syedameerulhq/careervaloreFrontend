@@ -90,7 +90,7 @@ const blogItems = [
                   width={32}
                   height={32}
                 />
-                <span className="ml-2 text-xl font-bold text-gray-800">Careervalore</span>
+                <span className="ml-2 text-xl font-bold text-gray-800">CareerValore</span>
               </div>
 
               {/* Desktop Menu */}
