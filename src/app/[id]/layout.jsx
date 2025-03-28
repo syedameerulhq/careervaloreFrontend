@@ -25,7 +25,11 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `${job.title} - ${job.company}`,
       description: description || `Apply for ${job.title} at ${job.company}. Location: ${job.location}. Salary: ${job.salary}.`,
-      images: [job.image || "/default-job-image.jpg"],
+     {/* 
+ images: [job.image || "/default-job-image.jpg"],
+*/}  
+
+
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/jobs/${id}`,
       type: "website",
     },
