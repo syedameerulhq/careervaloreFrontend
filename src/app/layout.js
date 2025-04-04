@@ -72,9 +72,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       <link rel="icon" href="icon-modified.png" />
-      {/* <Adsence /> */}
-<meta name="google-adsense-account" content="ca-pub-8581033330533278"/>
+        {/* <Adsence /> */}
+       {/* <meta name="google-adsense-account" content="ca-pub-8581033330533278"/> */}
 
+
+        {/* Add the Monetag meta tag here */}
+        <meta name="monetag" content="963c891e73706446eaf225f2759a6d0b" />
 
         {/* Meta Tags for SEO */}
         <meta name="description" content="Find the latest job listings and career opportunities at CareerValore. Explore top jobs, apply online, and kickstart your career with leading companies." />
