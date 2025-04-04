@@ -77,6 +77,7 @@ export default function RootLayout({ children }) {
 
 
         {/* Add the Monetag meta tag here */}
+
         <meta name="monetag" content="963c891e73706446eaf225f2759a6d0b" />
 
         {/* Meta Tags for SEO */}
@@ -109,6 +110,14 @@ export default function RootLayout({ children }) {
           flexDirection: "column" 
         }}
       >
+   <Script
+          src="https://kulroakonsu.net/88/tag.min.js"
+          data-zone="140546"
+          async
+          data-cfasync="false"
+          strategy="afterInteractive" // Loads after the page is interactive
+        />
+
         <div style={{ marginBottom: "10px" }}>
           <Navbar />
         </div>
