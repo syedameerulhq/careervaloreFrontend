@@ -74,8 +74,12 @@ export default function RootLayout({ children }) {
       <link rel="icon" href="icon-modified.png" />
      <Adsence />
    <meta name="google-adsense-account" content="ca-pub-8581033330533278"/> 
- {/*google console  */}
-<meta name="google-site-verification" content="OpfS0hLfcCnfLia7JaZ_HyvUu4kc0kt-_S4jcO54je4" />
+ {/*google console  syedameerulhaq*/}
+ {/*<meta name="google-site-verification" content="OpfS0hLfcCnfLia7JaZ_HyvUu4kc0kt-_S4jcO54je4" />*/}
+
+
+<meta name="google-site-verification" content="PyozoKsxM3HRzuABcm3Qw1Gy91GzDZSoaR9EtEnI2So" />
+
         {/* Meta Tags for SEO */}
         <meta name="description" content="Find the latest job listings and career opportunities at CareerValore. Explore top jobs, apply online, and kickstart your career with leading companies." />
         <meta name="keywords" content="job listings, career opportunities, recruitment, job search, employment, CareerValore, latest jobs, apply online, job vacancies" />
