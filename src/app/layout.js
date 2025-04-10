@@ -121,6 +121,24 @@ export default function RootLayout({ children }) {
           strategy="afterInteractive" // Loads after the page is interactive
           crossOrigin="anonymous"
         />
+
+//google analytics
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-9DRG7DPCHZ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9DRG7DPCHZ');
+          `}
+        </Script>
+
+
+
+
         <Footer />
         <Analytics />
           <SpeedInsights /> 
