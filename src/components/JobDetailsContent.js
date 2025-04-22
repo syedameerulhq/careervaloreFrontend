@@ -86,7 +86,7 @@ export default function JobPosting({ job }) {
                   {job.isActive ? "Active Opening" : "Closed"}
                 </div>
                 <h1 className="text-3xl sm:text-4xl font-bold text-white">
-                  {cleanString(job.name)} – Hiring for {cleanString(job.title)} @{cleanString(job.location)}
+                  {cleanString(job.company)} – Hiring for {cleanString(job.title)} @{cleanString(job.location)}
                 </h1>
                 <div className="flex flex-wrap gap-4 text-white/90">
                   <div className="flex items-center gap-2">
