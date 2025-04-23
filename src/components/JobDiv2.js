@@ -63,7 +63,7 @@ const JobList = ({ jobs, loading }) => {
                     <h3 className="text-xl font-bold text-gray-900 line-clamp-2 break-words">
                       {job.title}
                     </h3>
-                    <p className="text-md text-gray-600 line-clamp-1">{job.name}</p>
+                    <p className="text-md text-gray-600 line-clamp-1">{job.company}</p>
                   </div>
                 </div>
                 <span className="text-sm px-3 py-2 bg-blue-100 text-blue-700 rounded-lg font-semibold whitespace-nowrap flex-shrink-0">
