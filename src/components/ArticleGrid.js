@@ -112,7 +112,7 @@ const ArticleGrid = ({ jobs, loading, error }) => {
                       wordBreak: "break-word",
                     }}
                   >
-                    {job.company.name} - {job.location}
+                    {job.company} - {job.location}
                   </Typography>
                   <Typography
                     variant="body2"
