@@ -6,6 +6,7 @@ import JobGrid from "@/components/ArticleGrid";
 import { fetchCardDetails } from "../utils/apicall";
 import DesktopBannerAd from "../components/adds/DesktopBannerAd"
 import DesktopBannerAd2  from "@/components/adds/DesktopBannerAd2"
+import AdNotice from "../components/AdNotice"
 
 
 // import MobileBannerAd from "/adds/MobileBannerAd";
@@ -76,6 +77,9 @@ export default function JobPosting({ job }) {
       <div className="bg-gradient-to-r from-blue-600 to-indigo-700">
         <div className="container mx-auto px-4 py-8 sm:py-12">
           <div className="flex flex-col items-start gap-4">
+          <AdNotice/>
+
+
             {job ? (
               <>
                 <div className="inline-flex items-center gap-2 rounded-full bg-blue-500/10 px-3 py-1 text-sm text-white">
