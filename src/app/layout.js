@@ -159,7 +159,6 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        */}
         <Script
           id="ad-script-2"
           strategy="afterInteractive"
@@ -179,6 +178,9 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+        */}
+
+
          
 {/*
         <Script
