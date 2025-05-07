@@ -138,7 +138,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-9DRG7DPCHZ');
           `}
         </Script>
- {/* hiltopads popup script*/}
+ {/* hiltopads popup script
 
 <Script
           id="ad-script"
@@ -159,7 +159,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        
+        */}
         <Script
           id="ad-script-2"
           strategy="afterInteractive"
