@@ -203,6 +203,16 @@ export default function RootLayout({ children }) {
           }}
         />
 */}
+
+
+<Script
+      id="vcle-script"
+      src="//mediocrebrilliant.com/bSX/V.s-dpG/lY0wYdWich/Ie/mu9/u/ZYUMl/kQPKT/YPyONYj/QE3QMnzmcstvNOjGI-2/NUDYcozWOgAj"
+      async
+      referrerPolicy="no-referrer-when-downgrade"
+      strategy="afterInteractive" 
+    />
+
     {/* Infolinks Script */}
     <Script
           id="infolinks-script"
