@@ -46,6 +46,7 @@ function DesktopBannerAd({ adId, width = '300px', height = '250px' }) {
       />
       <div id={adId}></div>
       
+      
     </div>
   );
 }

@@ -73,7 +73,9 @@ export default function RootLayout({ children }) {
       <head>
       <link rel="icon" href="icon-modified.png" />
          {/*  Hilltopads */}
-        <meta name="df3313140cac4edd1e5c35bc4c93b1fa1a714ac1" content="df3313140cac4edd1e5c35bc4c93b1fa1a714ac1" /> 
+        <meta name="df3313140cac4edd1e5c35bc4c93b1fa1a714ac1" content="df3313140cac4edd1e5c35bc4c93b1fa1a714ac1" />
+  {/* 20% more */}
+        <meta name="referrer" content="no-referrer-when-downgrade" /> 
         <Adsence />
         <meta name="google-adsense-account" content="ca-pub-8581033330533278"/> 
         {/*google console  syedameerulhaq*/}
@@ -228,6 +230,7 @@ export default function RootLayout({ children }) {
             `,
       }}
           />
+          
 
         <Footer />
         <Analytics />

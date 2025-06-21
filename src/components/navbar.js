@@ -83,6 +83,7 @@ const blogItems = [
           <div className="relative flex items-center justify-between h-16">
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
               {/* Logo */}
+                    <Link href="/">
               <div className="flex-shrink-0 flex items-center">
                 <Image
                   className="block h-8 w-auto"
@@ -93,6 +94,7 @@ const blogItems = [
                 />
                 <span className="ml-2 text-xl font-bold text-gray-800">CareerValore</span>
               </div>
+               </Link>
 
               {/* Desktop Menu */}
               <div className="hidden sm:block sm:ml-6">

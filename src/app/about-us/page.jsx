@@ -1,12 +1,13 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
 import { Award, Target, CheckCircle } from "lucide-react";
 
 export default function AboutPage() {
   return (
-    <div className="flex min-h-screen flex-col bg-gray-50 " >
+    <div className="flex min-h-screen flex-col bg-gray-50">
       <main className="flex-1">
-
         {/* Hero Section */}
         <section className="w-full py-16 bg-gradient-to-br from-blue-600 to-blue-400 text-white">
           <div className="container mx-auto px-4">
@@ -37,40 +38,76 @@ export default function AboutPage() {
         </section>
 
         {/* Our Services Section */}
-        <section className=" py-16 bg-white">
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center space-y-4 mb-10">
               <h2 className="text-3xl font-bold sm:text-4xl text-gray-900">Our Services</h2>
-              <p className="max-w-[700px] mx-auto text-gray-600 text-base">
-                Delivering innovative software solutions to empower your career and business success.
+              <p className=" mx-auto text-gray-600 text-base">
+                Delivering innovative solutions to elevate your brand and business success.
               </p>
             </div>
-            <div className="grid max-w-5xl mx-auto gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid mx-auto gap-8 md:grid-cols-2 lg:grid-cols-4">
               <div className="flex flex-col space-y-4 p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all">
                 <div className="p-3 bg-blue-100 rounded-full w-fit">
                   <CheckCircle className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900">Custom Software Development</h3>
+                <h3 className="text-xl font-semibold text-gray-900">Ads</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Building tailored software solutions to meet unique business needs, from web applications to enterprise systems.
+                  Creating targeted advertising campaigns to boost your brand’s visibility and engagement across platforms.
                 </p>
               </div>
               <div className="flex flex-col space-y-4 p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all">
                 <div className="p-3 bg-blue-100 rounded-full w-fit">
                   <CheckCircle className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900">Career Management Tools</h3>
+                <h3 className="text-xl font-semibold text-gray-900">Website Building</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Offering intuitive platforms for job seekers to track applications, optimize resumes, and connect with employers.
+                  Designing and developing responsive, user-friendly websites tailored to your business needs.
                 </p>
               </div>
               <div className="flex flex-col space-y-4 p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all">
                 <div className="p-3 bg-blue-100 rounded-full w-fit">
                   <CheckCircle className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900">Talent Acquisition Software</h3>
+                <h3 className="text-xl font-semibold text-gray-900">Video Editing</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Providing employers with advanced tools to streamline hiring, manage candidates, and build top-tier teams.
+                  Producing professional, high-quality video content to captivate your audience and enhance your brand.
+                </p>
+              </div>
+              <div className="flex flex-col space-y-4 p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all">
+                <div className="p-3 bg-blue-100 rounded-full w-fit">
+                  <CheckCircle className="h-6 w-6 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">Graphic Design</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Crafting visually stunning graphics for logos, branding, and marketing materials to make your business stand out.
+                </p>
+              </div>
+              <div className="flex flex-col space-y-4 p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all">
+                <div className="p-3 bg-blue-100 rounded-full w-fit">
+                  <CheckCircle className="h-6 w-6 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">Pitch Deck & Presentation Making</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Building compelling pitch decks and presentations to effectively communicate your ideas and win stakeholders.
+                </p>
+              </div>
+              <div className="flex flex-col space-y-4 p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all">
+                <div className="p-3 bg-blue-100 rounded-full w-fit">
+                  <CheckCircle className="h-6 w-6 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">Transcription</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Providing accurate and timely transcription services for audio, video, and other multimedia content.
+                </p>
+              </div>
+              <div className="flex flex-col space-y-4 p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-lg transition-all">
+                <div className="p-3 bg-blue-100 rounded-full w-fit">
+                  <CheckCircle className="h-6 w-6 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">Social Media Handling</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Managing and optimizing your social media presence to grow your audience and strengthen your brand.
                 </p>
               </div>
             </div>
@@ -89,7 +126,6 @@ export default function AboutPage() {
                 <p>
                   Inspired by personal job-hunting struggles, we crafted a platform prioritizing transparency and efficiency. What began with a small, passionate team has evolved into a trusted hub for thousands of job seekers and employers.
                 </p>
-              
               </div>
             </div>
           </div>

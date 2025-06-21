@@ -2,6 +2,7 @@
 import { fetchCardDetails } from "../../utils/apicall";
 import  DesktopBannerAd from "@/components/adds/DesktopBannerAd"
 import DesktopBannerAd2  from "@/components/adds/DesktopBannerAd2"
+import HilltopAds from "@/components/adds/hilltopAds";
 export async function generateMetadata({ params }) {
   const { id } = await params;
 
@@ -37,6 +38,7 @@ export default function Layout({ children }) {
   return <>
   {children}
   {/* ads */}
+  <HilltopAds />
   <DesktopBannerAd adId="desktop-bottom"  />
   <DesktopBannerAd2 adId="desktop-latest-jobs"  />
 

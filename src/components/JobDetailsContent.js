@@ -287,7 +287,7 @@ console.log(jobs)
             <p className="text-sm text-gray-600">{job.company} - {job.location}
               <span style={{marginLeft: "10px"}}>
                    <a
-              href={job.jobLink}
+              href={job._id}
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline text-sm mt-2 inline-block"
